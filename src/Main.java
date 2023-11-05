@@ -120,6 +120,7 @@ public class Main {
                 break;
             case 5:
                 System.out.println("Месяц 5-й Май относится к весеннему сезону ");
+                break;
             case 6:
                 System.out.println("Месяц 6-й Июнь относится к летниму сезону");
                 break;
