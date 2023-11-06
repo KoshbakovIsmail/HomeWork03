@@ -107,40 +107,24 @@ public class Main {
         int monthNumber = scanner.nextInt();
         switch (monthNumber) {
             case 1:
-                System.out.println("Месяц 1-й Январь относится к зиммнему сезону");
-                break;
             case 2:
-                System.out.println("Месяц 2-й Февраль относится к зиммнему сезону");
+            case 12:
+                System.out.println("Этот месяц отонсится к зиммнему сезону");
                 break;
             case 3:
-                System.out.println("Месяц 3-й Март относится к весеннему сезону");
-                break;
             case 4:
-                System.out.println("Месяц 4-й Апрель относится к весеннему сезону");
-                break;
             case 5:
-                System.out.println("Месяц 5-й Май относится к весеннему сезону ");
+                System.out.println("Этот месяц отонсится к весеннему сезону");
                 break;
             case 6:
-                System.out.println("Месяц 6-й Июнь относится к летниму сезону");
-                break;
             case 7:
-                System.out.println("Месяц 7-й Июль относится к летниму сезону");
-                break;
             case 8:
-                System.out.println("Месяц 8-й Август относится к летниму сезону");
+                System.out.println("Этот месяц относится к летниму сезону");
                 break;
             case 9:
-                System.out.println("Месяц 9-й Сентябрь относится к осеннему сезону");
-                break;
             case 10:
-                System.out.println("Месяц 10-й Октябрь относится к осеннему сезону");
-                break;
             case 11:
-                System.out.println("Месяц 11-й Ноябрь относится к осеннему сезону");
-                break;
-            case 12:
-                System.out.println("Месяц 12-й Декабрь относится к зиммнему сезону");
+                System.out.println("Этот месяц относится к осеннему сезону");
                 break;
             default:
                 System.out.println("Ошибка! Введите только цыфры от 1 до 12 ");
